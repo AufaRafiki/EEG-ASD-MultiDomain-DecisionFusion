@@ -1,0 +1,10 @@
+# Recommended tested-family constraints; exact environment must be resolved and frozen after installation.
+numpy>=1.26,<2.1
+pandas>=2.1,<3
+scipy>=1.11,<1.15
+scikit-learn>=1.4,<1.7
+PyWavelets>=1.5,<2
+tensorflow>=2.15,<2.19
+# Additional reader for BCI2000 .dat raw-feature extraction:
+BCI2kReader
+pytest>=8,<9
